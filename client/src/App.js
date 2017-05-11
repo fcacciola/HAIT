@@ -11,7 +11,7 @@ import Monitor from "./Monitor"
 
 import "./App.css"
 
-const Home = () => ( <Router>
+const App = () => ( <Router>
                        <div>
                          <ul className="hmenu">
                            <li className="hmenu-item"><Link to="/">Home</Link></li>
@@ -24,4 +24,4 @@ const Home = () => ( <Router>
                        </div>
                      </Router>)
 
-export default Home;
+export default App;
