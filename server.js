@@ -74,7 +74,7 @@ app.get('/api/get_test', (req,res) => {
   let res_size    = 0 ;
   let res_row     = -1 ;
   let res_col     = -1 ;
-  let res_palette = ['000000', 'FFFFFF'];
+  let res_palette = ['red', 'blue'];
 
   let participant_ip = String(req.ip) ;
   let participant_id = -1 ;
